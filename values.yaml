@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: "pinkmelon/nextjsapp"   # ✅ your Docker Hub repo
-  tag: "6"                       # will be updated by Jenkins pipeline
+  tag: 7
 
 service:
   type: LoadBalancer
