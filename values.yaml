@@ -2,7 +2,7 @@ replicaCount: 1
 namespace: nextjs-app 
 image:
   repository: "pinkmelon/nextjsapp"   # ✅ your Docker Hub repo
-  tag: 8
+  tag: 9
 
 service:
   type: LoadBalancer
