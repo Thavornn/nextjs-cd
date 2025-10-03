@@ -1,0 +1,10 @@
+replicaCount: 1
+
+image:
+  repository: "pinkmelon/nextjsapp"   # ✅ your Docker Hub repo
+  tag: "6"                       # will be updated by Jenkins pipeline
+
+service:
+  type: LoadBalancer
+  port: 3000                          # Next.js default port
+  targetPort: 3000                    # Next.js default port
